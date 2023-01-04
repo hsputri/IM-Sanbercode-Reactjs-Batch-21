@@ -1,0 +1,23 @@
+.container{
+    width: 100%;
+    background-color: rgb(243, 186, 28);
+    padding: 6px 50px;
+    margin-top: 16px;
+    /* color: rgb(58, 65, 83); */
+}
+.site-layout-background {
+    min-height: 280px;
+    padding: 24px;
+    background: #fff;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+  }

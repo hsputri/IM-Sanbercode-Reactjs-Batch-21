@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+      .container{
+        width: 800px;
+        margin: auto;
+        padding: 0px 20px 20px;
+        border: 1px grey solid;
+      }
+      h1{
+        text-align: center;
+      }
+      ul span{
+        font-weight: bold;
+      }
+      .list-unstyled{
+        list-style: none;
+        padding: 0px;
+      }
+      button{
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      table input{
+        margin-left:40px;
+        margin-bottom: 10px;
+      }
+      table textarea{
+        margin-left: 40px;
+      }
+      table th{
+        text-align: left;
+        vertical-align: bottom;
+        padding-bottom: 10px;
+      }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hubungi Kami</h1>
+    <ul class="list-unstyled">
+        <li><span>Kantor :</span> di jalan belum jadi</li> 
+        <li><span>Nomor Telepon :</span> 08XX-XXXX-XXXX</li> 
+        <li><span>Email :</span> email@contoh.com</li> 
+    </ul>
+    <h1>Kirimkan Pesan</h1>
+    <form action="">
+      <table>
+        <tr>
+          <th>Nama</th>
+          <td><input type="text"></td>
+        </tr>
+        <tr>
+          <th>Email</th>
+          <td><input type="email"></td>
+        </tr>
+        <tr>
+          <th>Jenis Kelamin</th>
+          <td>
+            <input type="radio" name="jenisKelamin">
+            <label for="pria">Laki-laki</label>
+            <br>
+            <input type="radio" name="jenisKelamin">
+            <label for="wanita">Perempuan</label>
+          </td>
+        </tr>
+        <tr>
+          <th>Pesan Anda</th>
+          <td><textarea name="pesan" id="" cols="60" rows="5"></textarea></td>
+        </tr>
+      </table>
+    </form>
+    <button>Kirim</button>
+    <br>
+    <a href="index.html">Kembali Ke Index</a>
+  </div>
+    
+</body>
+</html>
